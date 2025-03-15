@@ -36,7 +36,6 @@ class Student:
     def isAlive(self):
         if 1<=self.progress<5:
             print("Ти на грані відрахування. Починай навчатися")
-            self.study()
             self.alive=True
         elif self.progress<=1:
             print("Відрахування з інституту")
